@@ -1,7 +1,15 @@
 <template>
   <div>
-    <div class="loginName">
-      <label for="name">Full name:</label>
+    <div class="userName">
+      <label for="userName"> Username:</label>
+      <input type="text" id="username">
+    </div>
+    <div class="Password">
+      <label for="password"> Password:</label>
+      <input type="password" id="password">
+    </div>
+    <div class="name">
+      <label for="name">Enter Name:</label>
       <input type="text" id="name">
     </div>
     <div class="">
