@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import register from './components/Registration/Register.vue'
+import Register from './components/Registration/Register.vue'
 
 export default {
   name: 'App',
   components: {
-    register
+    Register
   }
 }
 </script>
