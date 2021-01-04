@@ -1,12 +1,16 @@
 <template>
-  <div>
+  <div class="container">
+    <blockquote class="blockquote" >
+      <h1 class="mb-0">Sign In</h1>
+      <footer class="blockquote-footer text-right">
+        Or create and account
+      </footer>
+    </blockquote>
     <div class="input-group">
-      <div class="title">
-        <h1>Sign In</h1>
+      <!--h1>Sign In</h1>
         <router-link to="/NewUser" active-class="active" tag="li">
           <h5>Or <a>create an account</a></h5>
-        </router-link>
-      </div>
+        </router-link-->
       <form>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
