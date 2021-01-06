@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <div class="row justify-content: flex-start | flex-end | center |">
-    <div class="col-sm-6 col-md-6 col-lg-6 ">
+    <div class="row justify-content-center">
+    <div class="col-6">
       <blockquote class="blockquote">
         <h1 class="mb-0">Sign In</h1>
         <footer class="blockquote-footer">Or create and account</footer>
@@ -11,7 +11,7 @@
         <router-link to="/NewUser" active-class="active" tag="li">
           <h5>Or <a>create an account</a></h5>
         </router-link-->
-        <form>
+        <form class="col-12">
           <div class="form-group">
             <label for="exampleInputEmail1" class="text-left">Email address</label>
             <input
@@ -21,19 +21,19 @@
               aria-describedby="emailHelp"
               placeholder="Enter email"
             />
-            <small id="emailHelp" class="form-text text-muted"
+            <!--small id="emailHelp" class="form-text text-muted"
               >We'll never share your email with anyone else.</small
-            >
+            -->
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
             <input
               type="password"
               class="form-control"
-              id="exampleInputPassword1"
+              id="PasswordText"
               placeholder="Password"
             />
-          </div>
+            </div>
           <button type="submit" class="btn btn-primary">Sign In</button>
         </form>
       </div>
