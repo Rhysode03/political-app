@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <register msg="Welcome to Your Vue.js App"/>
+    <register msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
-import Register from './components/Registration/Register.vue'
+import Register from "./components/Home/Registration/Register";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Register
-  }
-}
+    Register,
+  },
+};
 </script>
 
 <style>
